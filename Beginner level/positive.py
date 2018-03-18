@@ -1,5 +1,5 @@
 N=int(input("enter the value:"))
-if(1<=N<=100000):
+if(N>0):
     print("Positive")
 elif(N==0):
     print("Zero")
