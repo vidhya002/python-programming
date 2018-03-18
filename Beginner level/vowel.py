@@ -1,6 +1,6 @@
 x=input()
 candy=['a','e','i','o','u']
-if x in candy:
-    print("Vowel")
+if x not in candy:
+    print("Consonant")
 else:
-    print("Consonants")
+    print("Vowel")
