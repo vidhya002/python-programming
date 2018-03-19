@@ -1,9 +1,9 @@
-e=int(input())
-f=int(input())
-g=int(input())
-if(f>e and f>g):
-    print(f)
-elif(e>g):
-    print(e)
+x=int(input())
+y=int(input())
+z=int(input())
+if(x>y and x>z):
+    print(x)
+elif(y>z):
+    print(y)
 else:
-    print(g)
+    print(z)
