@@ -5,7 +5,7 @@ while(c!=0):
     r=c%10
     b=b*10+r
     c=c//10
-    if(x==b):
+if(x==b):
         print("yes")
-    else:
+else:
         print("no")
