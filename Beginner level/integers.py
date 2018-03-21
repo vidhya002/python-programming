@@ -1,9 +1,8 @@
 add=0
-i=k
+N=int(input())
 k=int(input())
-monty=[1,2,3,4,5]
-x=monty[:i]
+monty=[int(input()),int(input()),int(input()),int(input()),int(input())]
 for i in range(k):
-    add=add+x[i]
-    i-=1
+    add=add+monty[i]
+    i+=1
 print(add)
