@@ -1,5 +1,3 @@
-x=int(input())
-p=int(input())
-if x>0:
-    s=x**p
-    print(s)
+x,p=input().split()
+s=int(x)**int(p)
+print(s)
