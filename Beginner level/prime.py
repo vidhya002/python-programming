@@ -1,7 +1,9 @@
+count=0
 g=int(input())
-if(g==2):
+for i in range(2,g):
+    if(g%i==0):
+        count+=1
+if(count==0):
     print("yes")
-elif(g%2==0):
-    print("no")
 else:
-    print("yes")
+    print("no")
