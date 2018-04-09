@@ -1,5 +1,5 @@
 c,d=input().split(" ")
-for i in range(int(c),int(d)):
+for i in range(int(c)+1,int(d)):
     if(i>1):
         for n in range(2,i):
             if(i%n==0):
