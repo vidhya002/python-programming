@@ -1,5 +1,8 @@
-a=int(input())
-d=[int(input())for i in range(a)]
-d.sort()
-c=d[-1]
+f=int(input())
+a=[]
+for i in range(f):
+  s=int(input())
+  a.append(s)
+  a.sort()
+  c=a[-1]
 print(c)
