@@ -2,7 +2,7 @@ d,s=input().split()
 d=int(d)
 s=int(s)
 g=s
-b=[int(input())for i in range(d)]
+b=input().split()
 if(d>s);
     while(s>0):
         f=b[-s]
@@ -12,4 +12,4 @@ if(d>s);
     for u in range(1,c):
         print(b[u],end=' ')
 else:
-    print(b[i])       
+    print(b)       
