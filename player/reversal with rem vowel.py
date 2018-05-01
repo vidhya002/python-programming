@@ -1,20 +1,19 @@
 b=str(input())
 b=b.lower()
-g=length(b)
+g=len(b)
 h=[]
-for i in range(1,g):
-    h.append(b[-i])
-h.append(b[0])    
+for i in range(1,g+1):
+    h.append(b[-i])    
 for i in h:
     if i=='a':
-        h.replace(i,"")
+        h.remove(i)
     elif i=='e':
-        h.replace(i,"")
+        h.remove(i)
     elif i=='i':
-        h.replace(i,"")
+        h.remove(i)
     elif i=='o':
-        h.replace(i,"")
+        h.remove(i)
     elif i=='u':
-        h.replace(i,"")
+        h.remove(i)
 k="".join(h)
 print(k)   
