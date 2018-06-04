@@ -1,16 +1,16 @@
 n=int(input())
-temp=0
-arr=[int(input())for x in range(n)]
-size=len(arr)
-for i in range (0, size):
-    for j in range (i + 1, size):
-        if arr[i] == arr[j]:
-            print(arr[i], end = ' ')
-            length=len(arr[i])
-            for y in range (0,length):
-                for z in range (x + 1,length):
-                    if arr[y] > arr[z]:
-                        z=y
-                        temp=z
-                        y=temp
-            print(arr[y], end = ' ')
+list1=[]
+list2=[]
+count=0
+for i in range(0,n):
+    r=int(input())
+    if(type(r)==int):
+        list1.append(r)
+for j in range(0,n):
+    c=list1.count(list1[j])
+    if(c>1):
+        if(list1[j] not in list2):
+            list2.append(list1[j])
+            count=count+1
+if(count>=1):
+    print(sorted(list2))
